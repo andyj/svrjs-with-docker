@@ -1,5 +1,7 @@
 # SVR.JS with Docker
 
+From my post [andyjarrett.com/posts/2024/how-to-run-svrjs-with-docker-compose/](https://www.andyjarrett.com/posts/2024/how-to-run-svrjs-with-docker-compose/)
+
 This repository demonstrates how to set up and run [SVR.JS](https://svrjs.org/) using Docker Compose. SVR.JS is a lightweight static file server, and this guide simplifies the deployment process by eliminating installation dependencies.
 
 ## Project Structure
