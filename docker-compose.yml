@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+  svrjs:
+    image: svrjs/svrjs:lts
+    container_name: svrjs-server
+    platform: linux/amd64
+    ports:
+      - "8383:80"  # Map port 8383 on host to port 80 in the container
+    volumes:
+      - ./www:/var/www/svrjs  # Mount the local `www` directory as the web root
+      - ./svrjs-config.json:/etc/svrjs-config.json  # Mount custom config
+    restart: always

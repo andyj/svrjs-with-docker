@@ -1,0 +1,8 @@
+{
+  "port": 80,
+  "wwwroot": "/var/www/svrjs",
+  "logging": {
+    "enabled": true,
+    "level": "info"
+  }
+}
